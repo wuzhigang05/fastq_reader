@@ -1,0 +1,76 @@
+Undefined symbols:
+  "boost::program_options::store(boost::program_options::basic_parsed_options<char> const&, boost::program_options::variables_map&, bool)", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::options_description_easy_init::operator()(char const*, char const*)", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::variables_map::variables_map()", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::operator<<(std::basic_ostream<char, std::char_traits<char> >&, boost::program_options::options_description const&)", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::detail::cmdline::get_canonical_option_prefix()", referenced from:
+      boost::program_options::basic_command_line_parser<char>::run()  in ccuPEJxE.o
+  "boost::program_options::options_description_easy_init::operator()(char const*, boost::program_options::value_semantic const*, char const*)", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::notify(boost::program_options::variables_map&)", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::abstract_variables_map::operator[](std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const", referenced from:
+      boost::program_options::variables_map::operator[](std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) constin ccuPEJxE.o
+  "boost::program_options::invalid_option_value::invalid_option_value(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:
+      void boost::program_options::validate<double, char>(boost::any&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, double*, long)in ccuPEJxE.o
+  "typeinfo for boost::program_options::value_semantic_codecvt_helper<char>", referenced from:
+      typeinfo for boost::program_options::typed_value<double, char>in ccuPEJxE.o
+  "boost::program_options::detail::cmdline::set_options_description(boost::program_options::options_description const&)", referenced from:
+      boost::program_options::basic_command_line_parser<char>::options(boost::program_options::options_description const&)in ccuPEJxE.o
+  "boost::program_options::to_internal(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:
+      std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > boost::program_options::to_internal<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)in ccuPEJxE.o
+  "vtable for boost::program_options::variables_map", referenced from:
+      boost::program_options::variables_map::~variables_map()in ccuPEJxE.o
+  "typeinfo for boost::program_options::error_with_option_name", referenced from:
+      typeinfo for boost::program_options::validation_errorin ccuPEJxE.o
+  "vtable for boost::program_options::error_with_option_name", referenced from:
+      boost::program_options::error_with_option_name::~error_with_option_name()in ccuPEJxE.o
+      boost::program_options::error_with_option_name::error_with_option_name(boost::program_options::error_with_option_name const&)in ccuPEJxE.o
+  "boost::program_options::error_with_option_name::substitute_placeholders(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const", referenced from:
+      vtable for boost::program_options::validation_errorin ccuPEJxE.o
+      vtable for boost::exception_detail::error_info_injector<boost::program_options::validation_error>in ccuPEJxE.o
+      vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::program_options::validation_error> >in ccuPEJxE.o
+      vtable for boost::exception_detail::error_info_injector<boost::program_options::invalid_option_value>in ccuPEJxE.o
+      vtable for boost::program_options::invalid_option_valuein ccuPEJxE.o
+      vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::program_options::invalid_option_value> >in ccuPEJxE.o
+  "boost::program_options::error_with_option_name::what() const", referenced from:
+      vtable for boost::program_options::validation_errorin ccuPEJxE.o
+      vtable for boost::exception_detail::error_info_injector<boost::program_options::validation_error>in ccuPEJxE.o
+      vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::program_options::validation_error> >in ccuPEJxE.o
+      vtable for boost::exception_detail::error_info_injector<boost::program_options::invalid_option_value>in ccuPEJxE.o
+      vtable for boost::program_options::invalid_option_valuein ccuPEJxE.o
+      vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::program_options::invalid_option_value> >in ccuPEJxE.o
+  "boost::program_options::arg", referenced from:
+      boost::program_options::typed_value<double, char>::name() constin ccuPEJxE.o
+  "boost::program_options::detail::cmdline::run()", referenced from:
+      boost::program_options::basic_command_line_parser<char>::run()  in ccuPEJxE.o
+  "boost::program_options::detail::cmdline::style(int)", referenced from:
+      boost::program_options::basic_command_line_parser<char>::style(int)in ccuPEJxE.o
+  "boost::program_options::options_description::m_default_line_length", referenced from:
+      _main in ccuPEJxE.o
+      _main in ccuPEJxE.o
+  "boost::program_options::validators::check_first_occurrence(boost::any const&)", referenced from:
+      void boost::program_options::validate<double, char>(boost::any&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, double*, long)in ccuPEJxE.o
+  "boost::program_options::detail::cmdline::cmdline(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)", referenced from:
+      boost::program_options::basic_command_line_parser<char>::basic_command_line_parser(int, char const* const*)in ccuPEJxE.o
+  "boost::program_options::options_description::options_description(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, unsigned int)", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::value_semantic_codecvt_helper<char>::parse(boost::any&, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, bool) const", referenced from:
+      vtable for boost::program_options::typed_value<double, char>in ccuPEJxE.o
+  "boost::program_options::options_description::add_options()", referenced from:
+      _main in ccuPEJxE.o
+  "boost::program_options::detail::cmdline::set_additional_parser(boost::function1<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>)", referenced from:
+      boost::program_options::basic_command_line_parser<char>::extra_parser(boost::function1<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>)in ccuPEJxE.o
+  "vtable for boost::program_options::value_semantic_codecvt_helper<char>", referenced from:
+      boost::program_options::value_semantic_codecvt_helper<char>::value_semantic_codecvt_helper()in ccuPEJxE.o
+      boost::program_options::value_semantic_codecvt_helper<char>::~value_semantic_codecvt_helper()in ccuPEJxE.o
+  "boost::program_options::error_with_option_name::error_with_option_name(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:
+      boost::program_options::validation_error::validation_error(boost::program_options::validation_error::kind_t, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)in ccuPEJxE.o
+  "boost::program_options::validation_error::get_template(boost::program_options::validation_error::kind_t)", referenced from:
+      boost::program_options::validation_error::validation_error(boost::program_options::validation_error::kind_t, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)in ccuPEJxE.o
+ld: symbol(s) not found
+collect2: ld returned 1 exit status

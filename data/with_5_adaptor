@@ -1,0 +1,24 @@
+@1 case perfect match
+ORaaaaaaaaaaccccccccccatcg
++
+IIIIIIIIIIIIIIIIIIIIIIIIII
+@1 case one insertion in left side and two inserts in right side of query sequence 
+ORaaaaaaaaaaccccccccccatcg
++
+IIIIIIIIIIIIIIIIIIIIIIIIII
+@1 case two insertions in left and three inerstions in right side of query sequence 
+ORaaaaaaaaaaccccccccccatcgIAMASINGaaaLEADAPTORaaaaaaaaaacccccccccc
++
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+@1 case partial adaptor missing first four letters
+ORaaaaaaaaaaccccccccccatcg
++
+IIIIIIIIIIIIIIIIIIIIIIIIII
+@1 case partial adaptor missing first four letters and with 1 mismatches
+ORaaaaaaaaaaccccccccccatcg
++
+IIIIIIIIIIIIIIIIIIIIIIIIII
+@1 case partial adaptor missing first four letters and with 2 mismatches
+SMMGLEADAPTORaaaaaaaaaaccccccccccatcg
++
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
