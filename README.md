@@ -1,15 +1,14 @@
 Example usage: 
 
-	Fastq_reader --id|--seqonly|--fasta <fastq files> OR
+  Fastq_reader [--id|--seqonly|--fasta] <fastq files> 
 
-	cat <fastq files> | Fastq_reader --id|--seqonly|--fasta:
+  cat <fastq files> | Fastq_reader [--id|--seqonly|--fasta]
+
 
   -h [ --help ]               produce help message
 
   -I [ --id ]                 only prints the seqids to the STDOUT, which 
-
                               isincompatible with fasta and input option 
-
                               [boolean]
 
   --seqonly                   only print the sequence to the STDOUT [boolean]
